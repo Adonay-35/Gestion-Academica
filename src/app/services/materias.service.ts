@@ -1,15 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { endpoints } from '../utils/endpoints';
-import { Estudiante } from '../interfaces/estudiante.interface';
+import { Materia } from '../interfaces/materia.interface';
 @Injectable({
 providedIn: 'root'
 })
-export class EstudiantesService {
+export class MateriasService {
 private readonly http = inject(HttpClient);
 constructor() { }
-obtenerEstudiantes() {
-return this.http.get<Estudiante[]>(endpoints.obtenerEstudiantes);
+obtenerMaterias() {
+return this.http.get<Materia[]>(endpoints.obtenerMaterias);
 }
 }
-
