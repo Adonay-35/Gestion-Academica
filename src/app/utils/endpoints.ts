@@ -18,11 +18,11 @@ environment.serverURL.concat('api/estudiantes/obtenerEstudiantes'),
 agregarCarrera: 
 environment.serverURL.concat('api/carreras/agregarCarrera'),
 actualizarCarrera: 
-environment.serverURL.concat('api/carreras/actualizarCarrera/:idCarrera'), 
+environment.serverURL.concat('api/carreras/actualizarCarrera/:id'), 
 eliminarCarrera: 
-environment.serverURL.concat('api/carreras/eliminarCarrera/:idCarrera'), 
+environment.serverURL.concat('api/carreras/eliminarCarrera/:id'), 
 obtenerCarreraPorID: 
-environment.serverURL.concat('api/carreras/obtenerCarreraPorID/:idCarrera'), 
+environment.serverURL.concat('api/carreras/obtenerCarreraPorID/:id'), 
 obtenerCarreras: 
 environment.serverURL.concat('api/carreras/obtenerCarreras'),
 
